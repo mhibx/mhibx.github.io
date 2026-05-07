@@ -229,7 +229,7 @@ body{
 
 <h1>
 Muhammad<br>
-Hibatullah
+Hibatullah Wafi
 </h1>
 
 <p>
