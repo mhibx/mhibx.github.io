@@ -1,123 +1,361 @@
 ---
 layout: default
+title: MHIBX
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+:root{
+  --bg:#050816;
+  --card:#0f172a;
+  --text:#f8fafc;
+  --muted:#94a3b8;
+  --primary:#38bdf8;
+  --border:rgba(255,255,255,.08);
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+body{
+  background:
+    radial-gradient(circle at top right, rgba(56,189,248,.15), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(139,92,246,.12), transparent 30%),
+    var(--bg);
+  color:var(--text);
+  font-family:'Inter',sans-serif;
+}
 
-#### Header 4
+.wrapper{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 24px;
+}
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+}
 
-##### Header 5
+.hero h1{
+  font-size:clamp(3rem,10vw,7rem);
+  line-height:.95;
+  font-weight:800;
+  letter-spacing:-3px;
+  margin-bottom:24px;
+}
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+.hero p{
+  max-width:650px;
+  font-size:1.2rem;
+  color:var(--muted);
+  line-height:1.8;
+}
 
-###### Header 6
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 18px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.03);
+  margin-bottom:30px;
+  color:var(--primary);
+  font-size:.95rem;
+}
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+.buttons{
+  display:flex;
+  gap:16px;
+  margin-top:40px;
+  flex-wrap:wrap;
+}
 
-### There's a horizontal rule below this.
+.btn{
+  padding:14px 24px;
+  border-radius:14px;
+  font-weight:600;
+  text-decoration:none !important;
+  transition:.25s;
+}
 
-* * *
+.btn-primary{
+  background:linear-gradient(135deg,#38bdf8,#818cf8);
+  color:white !important;
+}
 
-### Here is an unordered list:
+.btn-secondary{
+  border:1px solid var(--border);
+  color:var(--text) !important;
+  background:rgba(255,255,255,.03);
+}
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+.btn:hover{
+  transform:translateY(-3px);
+}
 
-### And an ordered list:
+.section{
+  padding:120px 0;
+}
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+.section-title{
+  font-size:2.5rem;
+  margin-bottom:20px;
+  letter-spacing:-1px;
+}
 
-### And a nested list:
+.section-desc{
+  color:var(--muted);
+  max-width:700px;
+  line-height:1.9;
+}
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+  margin-top:50px;
+}
 
-### Small image
+.card{
+  background:rgba(15,23,42,.65);
+  border:1px solid var(--border);
+  border-radius:24px;
+  padding:28px;
+  backdrop-filter:blur(10px);
+  transition:.3s;
+}
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+.card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(56,189,248,.35);
+  box-shadow:0 0 40px rgba(56,189,248,.08);
+}
 
-### Large image
+.card h3{
+  margin-top:0;
+  margin-bottom:18px;
+  font-size:1.2rem;
+}
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+.card p,
+.card li{
+  color:var(--muted);
+}
 
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:25px;
+}
 
-### Definition lists can be used with HTML syntax.
+.skill{
+  padding:10px 16px;
+  background:rgba(255,255,255,.04);
+  border:1px solid var(--border);
+  border-radius:999px;
+  font-size:.9rem;
+}
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+.project-tag{
+  display:inline-block;
+  margin-bottom:14px;
+  color:var(--primary);
+  font-size:.9rem;
+}
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+.contact{
+  text-align:center;
+  padding-bottom:120px;
+}
 
-```
-The final element.
-```
+.contact-links{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:16px;
+  margin-top:35px;
+}
+
+.contact-links a{
+  padding:14px 22px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  text-decoration:none !important;
+  color:var(--muted) !important;
+  transition:.25s;
+}
+
+.contact-links a:hover{
+  border-color:var(--primary);
+  color:white !important;
+}
+
+.footer{
+  text-align:center;
+  padding:40px 0;
+  color:var(--muted);
+  border-top:1px solid var(--border);
+}
+
+@media(max-width:768px){
+
+  .hero{
+    min-height:auto;
+    padding-top:60px;
+  }
+
+  .section{
+    padding:80px 0;
+  }
+
+  .hero p{
+    font-size:1rem;
+  }
+
+}
+</style>
+
+<div class="wrapper">
+
+<section class="hero">
+
+<div>
+
+<div class="badge">
+⚡ IT Support • Linux • Cybersecurity
+</div>
+
+<h1>
+Muhammad<br>
+Hibatullah
+</h1>
+
+<p>
+Building digital systems, learning cybersecurity,
+and creating internet-based projects.
+Focused on Linux environments, IT support,
+automation, and modern digital infrastructure.
+</p>
+
+<div class="buttons">
+<a class="btn btn-primary" href="#projects">View Projects</a>
+<a class="btn btn-secondary" href="#contact">Contact Me</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<p class="section-desc">
+I'm a technology enthusiast passionate about IT support,
+Linux systems, troubleshooting, and cybersecurity fundamentals.
+I enjoy building digital projects, learning independently,
+and experimenting with infrastructure, automation,
+and internet-based businesses.
+</p>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+<div class="skill">IT Support</div>
+<div class="skill">Networking</div>
+<div class="skill">Cybersecurity</div>
+<div class="skill">Cloudflare</div>
+<div class="skill">GitHub</div>
+<div class="skill">WordPress</div>
+<div class="skill">Troubleshooting</div>
+
+</div>
+
+</section>
+
+<section class="section" id="projects">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="project-tag">
+DIGITAL BUSINESS
+</div>
+
+<h3>
+Insider Top Up
+</h3>
+
+<p>
+A gaming top-up platform focused on automation,
+fast delivery, payment systems,
+and customer experience.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="project-tag">
+PERSONAL LAB
+</div>
+
+<h3>
+Learning Environment
+</h3>
+
+<p>
+Self-hosted environment for Linux practice,
+Git workflows, networking,
+and cybersecurity experiments.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">
+Let's Connect
+</h2>
+
+<p class="section-desc" style="margin:auto;">
+Feel free to reach out for collaboration,
+networking, or discussions about technology and projects.
+</p>
+
+<div class="contact-links">
+
+<a href="https://github.com/mhibx">
+GitHub
+</a>
+
+<a href="https://t.me/mwafi95">
+Telegram
+</a>
+
+<a href="mailto:yourmail@example.com">
+Email
+</a>
+
+</div>
+
+</section>
+
+<div class="footer">
+© 2026 MHIBX — Built with GitHub Pages
+</div>
+
+</div>
