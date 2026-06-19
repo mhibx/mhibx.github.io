@@ -1,145 +1,163 @@
-# 🛡️ M. H. Wafi — Cybersecurity Portfolio
+# 🛡️ Muhammad Hibatullah (MHIBX)
 
-**Aspiring Cybersecurity Analyst | Junior Penetration Tester**  
-Hands-on experience in vulnerability assessment, penetration testing, and network analysis.  
-Graduate of Merdeka Siber Cyber Security Engineer Bootcamp & Codelamp Pentesting Bootcamp.
+**Aspiring SOC Analyst | Blue Team Enthusiast | eJPT | ISC2 CC**
 
-📍 Bekasi, Indonesia  
-📧 mhibatullahwafi@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/mhwafi  
-🧑‍💻 TryHackMe: https://tryhackme.com/p/mhibx 
-🧑‍💻 HackTheBox: *REDACTED*
+Hands-on cybersecurity enthusiast building SIEM labs, performing vulnerability assessments, and documenting real-world security projects.
 
----
-
-## 🔒 About Me
-I am transitioning into cybersecurity after several years in analytical and operational roles within tech startups.  
-I bring strong skills in **research, investigation, pattern recognition, and structured problem-solving**, now applied to security domains such as:
-
-- Penetration Testing  
-- Vulnerability Assessment  
-- Network Security  
-- Basic Incident Detection  
-- Security Reporting  
-
-I strengthen my skills daily through labs, home labs, and structured exercises.
+🌐 Website: https://mhibx.github.io
+📍 Bekasi, Indonesia
+📧 [mhibatullahwafi@gmail.com](mailto:mhibatullahwafi@gmail.com)
+🔗 LinkedIn: https://www.linkedin.com/in/mhwafi
+🧑‍💻 TryHackMe: https://tryhackme.com/p/mhibx
 
 ---
 
-## 🧪 Hands-On Cybersecurity Projects
+# 👨‍💻 About Me
 
-### **1. Web Application Penetration Testing**
-**Tools:** Burp Suite, Nmap, SQLMap, OWASP ZAP  
-**Targets:** DVWA, Juice Shop, bWAPP  
-**Techniques Practiced:**  
-- XSS (Reflected & Stored)  
-- SQL Injection  
-- IDOR  
-- CSRF  
-- File Upload Exploits  
-- Authentication Bypass  
-- Session Hijacking  
+I'm an aspiring SOC Analyst transitioning into cybersecurity after several years in analytical and operational roles.
 
-**Deliverables:**  
-- Vulnerability findings  
-- Proof of Concepts  
-- Remediation suggestions  
-- Pentest-style documentation
+I enjoy building home labs, investigating Windows events, and learning defensive security concepts. My projects focus on:
+
+* SIEM & Log Analysis
+* Threat Detection
+* Vulnerability Assessment
+* Password Security
+* Web Application Security
+* Security Reporting
+
+Currently strengthening my foundation through hands-on labs and industry certifications.
 
 ---
 
-### **2. Network Scanning & Enumeration**
-**Tools:** Nmap, Netcat, Wireshark  
-**What I Did:**  
-- Service and OS fingerprinting  
-- Port scanning & reconnaissance  
-- Packet inspection and protocol analysis  
-- Attack surface mapping  
+# 🚀 Featured Projects
 
-I built reports detailing potential weaknesses and misconfigurations.
+## 🔹 Wazuh SIEM Home Lab
 
----
+Built a SIEM environment using Ubuntu and Windows endpoints to monitor and investigate security events.
 
-### **3. Home Lab Environment**
-**Setup:**  
-- Kali Linux  
-- Metasploitable2  
-- OWASP Juice Shop  
-- DVWA  
-- VirtualBox  
+### Included Projects
 
-**Skills Built:**  
-- Exploitation workflows  
-- Environment isolation  
-- Manual and automated scanning  
-- Basic privilege escalation practice  
+* Wazuh Installation & Configuration
+* Failed Login Detection (Event ID 4625)
+* Brute Force Detection
+* PowerShell Monitoring
+* Event Investigation
 
 ---
 
-### **4. Log Analysis & Basic Incident Detection**
-**Tools:** Linux logs, open-source SIEM labs  
-**What I Practiced:**  
-- Detecting brute-force attempts  
-- Identifying anomalous logins  
-- Investigating suspicious IP behavior  
-- Reviewing system and auth logs  
+## 🔹 Password Security Labs
+
+Implemented security concepts related to authentication and password storage.
+
+Projects:
+
+* Weak Password Checker
+* Password Strength Checker
+* Password Hashing
+* Salted Password Hashing
 
 ---
 
-## 🧰 Technical Skills
+## 🔹 Vulnerability Assessment & Penetration Testing
 
-**Security Domains:**  
-- Web Penetration Testing  
-- Vulnerability Assessment  
-- Reconnaissance & Enumeration  
-- Threat Analysis  
+Hands-on experience performing assessments and documenting findings.
 
-**Tools & Technologies:**  
-Nmap • Burp Suite • Wireshark • Metasploit • Nikto • Gobuster  
-Kali Linux • Ubuntu • VirtualBox  
+Projects:
 
-**Scripting:**  
-Bash • Basic Python  
-
-**Frameworks & Methodologies:**  
-OWASP Top 10 • MITRE ATT&CK • PTES • Cyber Kill Chain  
+* Pentest Report – Merdeka Bank
+* Pentest Report – Jersey Sekat
 
 ---
 
-## 📜 Certifications & Training
+# 🧰 Technical Skills
 
-- **Cyber Security Engineer Bootcamp — Merdeka Siber**  
-- **Penetration Testing Bootcamp — Codelamp**  
-- TryHackMe Labs !!DROP LINK HERE!! 
-- HackTheBox Starting Point !!DROP LINK HERE!!
+## Security
+
+* SIEM
+* Log Analysis
+* Threat Detection
+* Vulnerability Assessment
+* Web Application Security
+* Password Security
+
+## Tools
+
+* Wazuh
+* Burp Suite
+* Nmap
+* Wireshark
+* Metasploit
+* Gobuster
+* Nikto
+
+## Operating Systems
+
+* Ubuntu
+* Kali Linux
+* Windows
+
+## Technologies
+
+* Docker
+* Git
+* GitHub
+* VirtualBox
+
+## Frameworks
+
+* OWASP Top 10
+* MITRE ATT&CK
+* PTES
+* Cyber Kill Chain
 
 ---
 
-## 📁 Sample Reports
-!!DROP LINK HERE!!
+# 📜 Certifications
 
-- Web Application Penetration Test Report  
-- Vulnerability Assessment Report  
-- Network Enumeration Report  
+### ✅ ISC2 Certified in Cybersecurity (CC)
 
----
+### ✅ eJPT (eLearnSecurity Junior Penetration Tester)
 
-## 📈 Currently Learning
+### 🟡 CompTIA Security+ (Expected July 2026)
 
-- SIEM tools & log correlation  
-- Python for automation  
-- Privilege escalation  
-- Bug bounty methodologies  
+### 🏆 Certificate of Excellence – Merdeka Siber
+
+### 🏆 Mastered Predicate – Codelamp Indonesia
 
 ---
 
-## 📬 Contact
+# 📚 Currently Learning
 
-I’m currently seeking roles in:
-- Cybersecurity Analyst  
-- SOC Analyst (L1)  
-- Junior Penetration Tester  
-- Vulnerability Analyst  
+* Detection Engineering
+* Windows Event Analysis
+* MITRE ATT&CK Mapping
+* Python for Automation
+* SOC Operations
+* CompTIA Security+
 
-Feel free to reach out for collaborations or opportunities.
+---
 
+# 🎯 Career Objective
+
+Actively pursuing opportunities as:
+
+* SOC Analyst (Tier 1)
+* Security Analyst
+* Vulnerability Analyst
+* IT Support
+* Junior Penetration Tester
+
+---
+
+# 📫 Connect With Me
+
+🌐 Website: https://mhibx.github.io
+
+LinkedIn:
+https://www.linkedin.com/in/mhwafi
+
+TryHackMe:
+https://tryhackme.com/p/mhibx
+
+GitHub:
+https://github.com/mhibx
