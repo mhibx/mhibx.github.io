@@ -1,162 +1,23 @@
----
+```html
+<!DOCTYPE html>
+<html lang="en">
 
-layout: default
-title: MHIBX
-------------
+<head>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-:root{
-  --bg:#0d1117;
-  --card:#161b22;
-  --text:#f0f6fc;
-  --muted:#8b949e;
-  --primary:#00ff88;
-  --border:#30363d;
-}
+<title>MHIBX | Cybersecurity Portfolio</title>
 
-body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:'Inter',sans-serif;
-}
+<link rel="stylesheet" href="assets/css/style.css">
 
-.wrapper{
-  max-width:1100px;
-  margin:auto;
-  padding:40px 24px;
-}
+</head>
 
-.hero{
-  min-height:90vh;
-  display:flex;
-  align-items:center;
-}
-
-.hero h1{
-  font-size:clamp(3rem,10vw,6rem);
-  line-height:.95;
-  font-weight:800;
-  margin-bottom:24px;
-}
-
-.hero p{
-  max-width:700px;
-  line-height:1.8;
-  color:var(--muted);
-  font-size:1.1rem;
-}
-
-.badge{
-  display:inline-block;
-  border:1px solid var(--border);
-  padding:12px 20px;
-  border-radius:999px;
-  color:var(--primary);
-  margin-bottom:30px;
-}
-
-.buttons{
-  display:flex;
-  gap:16px;
-  margin-top:40px;
-  flex-wrap:wrap;
-}
-
-.btn{
-  padding:14px 24px;
-  border-radius:14px;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.btn-primary{
-  background:var(--primary);
-  color:black;
-}
-
-.btn-secondary{
-  border:1px solid var(--border);
-  color:white;
-}
-
-.section{
-  padding:100px 0;
-}
-
-.section-title{
-  font-size:2.5rem;
-  margin-bottom:25px;
-}
-
-.section-desc{
-  color:var(--muted);
-  line-height:1.9;
-  max-width:800px;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:24px;
-  margin-top:50px;
-}
-
-.card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:24px;
-  padding:30px;
-  transition:.3s;
-}
-
-.card:hover{
-  transform:translateY(-6px);
-  border-color:var(--primary);
-}
-
-.project-tag{
-  color:var(--primary);
-  font-size:.9rem;
-  margin-bottom:15px;
-}
-
-.card p{
-  color:var(--muted);
-  line-height:1.8;
-}
-
-.skills{
-  display:flex;
-  flex-wrap:wrap;
-  gap:12px;
-  margin-top:30px;
-}
-
-.skill{
-  border:1px solid var(--border);
-  padding:10px 16px;
-  border-radius:999px;
-  color:var(--muted);
-}
-
-.cert{
-  margin-bottom:25px;
-}
-
-.cert span{
-  color:var(--primary);
-}
-
-.footer{
-  text-align:center;
-  padding:50px 0;
-  color:var(--muted);
-}
-</style>
+<body>
 
 <div class="wrapper">
+
+<!-- Hero -->
 
 <section class="hero">
 
@@ -191,6 +52,9 @@ Certifications
 
 </section>
 
+
+<!-- About -->
+
 <section class="section">
 
 <h2 class="section-title">
@@ -198,7 +62,10 @@ About Me
 </h2>
 
 <p class="section-desc">
-I'm an aspiring SOC Analyst transitioning into cybersecurity. I enjoy building home labs, investigating Windows events, and learning defensive security concepts.
+
+I'm an aspiring SOC Analyst transitioning into cybersecurity.
+
+I enjoy building home labs, investigating Windows events, and learning defensive security concepts.
 
 My projects focus on SIEM, log analysis, password security, and vulnerability assessment.
 
@@ -225,6 +92,9 @@ Currently, I'm strengthening my foundation through hands-on labs and industry ce
 
 </section>
 
+
+<!-- Projects -->
+
 <section class="section" id="projects">
 
 <h2 class="section-title">
@@ -239,7 +109,9 @@ Featured Projects
 SIEM LAB
 </div>
 
-<h3>Wazuh Home Lab</h3>
+<h3>
+Wazuh Home Lab
+</h3>
 
 <p>
 Built a SIEM environment using Ubuntu and Windows endpoints to monitor and investigate security events.
@@ -247,13 +119,16 @@ Built a SIEM environment using Ubuntu and Windows endpoints to monitor and inves
 
 </div>
 
+
 <div class="card">
 
 <div class="project-tag">
 THREAT DETECTION
 </div>
 
-<h3>Failed Login & Brute Force Detection</h3>
+<h3>
+Failed Login & Brute Force Detection
+</h3>
 
 <p>
 Configured Wazuh to detect Event ID 4625 and brute-force login attempts.
@@ -261,13 +136,16 @@ Configured Wazuh to detect Event ID 4625 and brute-force login attempts.
 
 </div>
 
+
 <div class="card">
 
 <div class="project-tag">
 DETECTION ENGINEERING
 </div>
 
-<h3>PowerShell Monitoring</h3>
+<h3>
+PowerShell Monitoring
+</h3>
 
 <p>
 Monitored PowerShell activities and analyzed script execution events.
@@ -275,13 +153,16 @@ Monitored PowerShell activities and analyzed script execution events.
 
 </div>
 
+
 <div class="card">
 
 <div class="project-tag">
 PASSWORD SECURITY
 </div>
 
-<h3>Password Security Lab</h3>
+<h3>
+Password Security Lab
+</h3>
 
 <p>
 Implemented password strength analysis, hashing, and salted hashing concepts.
@@ -289,13 +170,16 @@ Implemented password strength analysis, hashing, and salted hashing concepts.
 
 </div>
 
+
 <div class="card">
 
 <div class="project-tag">
 VAPT
 </div>
 
-<h3>Pentest Report - Merdeka Bank</h3>
+<h3>
+Pentest Report – Merdeka Bank
+</h3>
 
 <p>
 Performed vulnerability assessment and documented findings in a professional report.
@@ -303,13 +187,16 @@ Performed vulnerability assessment and documented findings in a professional rep
 
 </div>
 
+
 <div class="card">
 
 <div class="project-tag">
 WEB SECURITY
 </div>
 
-<h3>Pentest Report - Jersey Sekat</h3>
+<h3>
+Pentest Report – Jersey Sekat
+</h3>
 
 <p>
 Conducted web application testing and documented vulnerabilities.
@@ -321,36 +208,88 @@ Conducted web application testing and documented vulnerabilities.
 
 </section>
 
+
+<!-- Certifications -->
+
 <section class="section" id="certifications">
 
 <h2 class="section-title">
 Certifications
 </h2>
 
-<div class="cert">
-<h3>ISC2 Certified in Cybersecurity (CC)</h3>
-<span>Certified</span>
+<div class="cert-grid">
+
+
+<div class="cert-card">
+
+<h3>
+ISC2 Certified in Cybersecurity (CC)
+</h3>
+
+<div class="cert-status">
+Certified
 </div>
 
-<div class="cert">
-<h3>eJPT</h3>
-<span>Certified Junior Penetration Tester</span>
 </div>
 
-<div class="cert">
-<h3>CompTIA Security+</h3>
-<span>Expected July 2026</span>
+
+<div class="cert-card">
+
+<h3>
+eJPT
+</h3>
+
+<div class="cert-status">
+Certified Junior Penetration Tester
 </div>
 
-<div class="cert">
-<h3>Certificate of Excellence - Merdeka Siber</h3>
 </div>
 
-<div class="cert">
-<h3>Mastered Predicate - Codelamp Indonesia</h3>
+
+<div class="cert-card">
+
+<h3>
+CompTIA Security+
+</h3>
+
+<div class="cert-status">
+Expected July 2026
+</div>
+
+</div>
+
+
+<div class="cert-card">
+
+<h3>
+Certificate of Excellence – Merdeka Siber
+</h3>
+
+<div class="cert-status">
+Achievement
+</div>
+
+</div>
+
+
+<div class="cert-card">
+
+<h3>
+Mastered Predicate – Codelamp Indonesia
+</h3>
+
+<div class="cert-status">
+Achievement
+</div>
+
+</div>
+
 </div>
 
 </section>
+
+
+<!-- Footer -->
 
 <div class="footer">
 
@@ -359,3 +298,8 @@ Certifications
 </div>
 
 </div>
+
+</body>
+
+</html>
+```
