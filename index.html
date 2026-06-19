@@ -1,25 +1,23 @@
 ---
+
 layout: default
 title: MHIBX
----
+------------
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root{
-  --bg:#050816;
-  --card:#0f172a;
-  --text:#f8fafc;
-  --muted:#94a3b8;
-  --primary:#38bdf8;
-  --border:rgba(255,255,255,.08);
+  --bg:#0d1117;
+  --card:#161b22;
+  --text:#f0f6fc;
+  --muted:#8b949e;
+  --primary:#00ff88;
+  --border:#30363d;
 }
 
 body{
-  background:
-    radial-gradient(circle at top right, rgba(56,189,248,.15), transparent 30%),
-    radial-gradient(circle at bottom left, rgba(139,92,246,.12), transparent 30%),
-    var(--bg);
+  background:var(--bg);
   color:var(--text);
   font-family:'Inter',sans-serif;
 }
@@ -37,31 +35,26 @@ body{
 }
 
 .hero h1{
-  font-size:clamp(3rem,10vw,7rem);
+  font-size:clamp(3rem,10vw,6rem);
   line-height:.95;
   font-weight:800;
-  letter-spacing:-3px;
   margin-bottom:24px;
 }
 
 .hero p{
-  max-width:650px;
-  font-size:1.2rem;
-  color:var(--muted);
+  max-width:700px;
   line-height:1.8;
+  color:var(--muted);
+  font-size:1.1rem;
 }
 
 .badge{
-  display:inline-flex;
-  align-items:center;
-  gap:10px;
-  padding:10px 18px;
-  border-radius:999px;
+  display:inline-block;
   border:1px solid var(--border);
-  background:rgba(255,255,255,.03);
-  margin-bottom:30px;
+  padding:12px 20px;
+  border-radius:999px;
   color:var(--primary);
-  font-size:.95rem;
+  margin-bottom:30px;
 }
 
 .buttons{
@@ -74,146 +67,92 @@ body{
 .btn{
   padding:14px 24px;
   border-radius:14px;
+  text-decoration:none;
   font-weight:600;
-  text-decoration:none !important;
-  transition:.25s;
 }
 
 .btn-primary{
-  background:linear-gradient(135deg,#38bdf8,#818cf8);
-  color:white !important;
+  background:var(--primary);
+  color:black;
 }
 
 .btn-secondary{
   border:1px solid var(--border);
-  color:var(--text) !important;
-  background:rgba(255,255,255,.03);
-}
-
-.btn:hover{
-  transform:translateY(-3px);
+  color:white;
 }
 
 .section{
-  padding:120px 0;
+  padding:100px 0;
 }
 
 .section-title{
   font-size:2.5rem;
-  margin-bottom:20px;
-  letter-spacing:-1px;
+  margin-bottom:25px;
 }
 
 .section-desc{
   color:var(--muted);
-  max-width:700px;
   line-height:1.9;
+  max-width:800px;
 }
 
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
   gap:24px;
   margin-top:50px;
 }
 
 .card{
-  background:rgba(15,23,42,.65);
+  background:var(--card);
   border:1px solid var(--border);
   border-radius:24px;
-  padding:28px;
-  backdrop-filter:blur(10px);
+  padding:30px;
   transition:.3s;
 }
 
 .card:hover{
   transform:translateY(-6px);
-  border-color:rgba(56,189,248,.35);
-  box-shadow:0 0 40px rgba(56,189,248,.08);
+  border-color:var(--primary);
 }
 
-.card h3{
-  margin-top:0;
-  margin-bottom:18px;
-  font-size:1.2rem;
+.project-tag{
+  color:var(--primary);
+  font-size:.9rem;
+  margin-bottom:15px;
 }
 
-.card p,
-.card li{
+.card p{
   color:var(--muted);
+  line-height:1.8;
 }
 
 .skills{
   display:flex;
   flex-wrap:wrap;
   gap:12px;
-  margin-top:25px;
+  margin-top:30px;
 }
 
 .skill{
+  border:1px solid var(--border);
   padding:10px 16px;
-  background:rgba(255,255,255,.04);
-  border:1px solid var(--border);
   border-radius:999px;
-  font-size:.9rem;
+  color:var(--muted);
 }
 
-.project-tag{
-  display:inline-block;
-  margin-bottom:14px;
+.cert{
+  margin-bottom:25px;
+}
+
+.cert span{
   color:var(--primary);
-  font-size:.9rem;
-}
-
-.contact{
-  text-align:center;
-  padding-bottom:120px;
-}
-
-.contact-links{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:16px;
-  margin-top:35px;
-}
-
-.contact-links a{
-  padding:14px 22px;
-  border-radius:14px;
-  border:1px solid var(--border);
-  text-decoration:none !important;
-  color:var(--muted) !important;
-  transition:.25s;
-}
-
-.contact-links a:hover{
-  border-color:var(--primary);
-  color:white !important;
 }
 
 .footer{
   text-align:center;
-  padding:40px 0;
+  padding:50px 0;
   color:var(--muted);
-  border-top:1px solid var(--border);
-}
-
-@media(max-width:768px){
-
-  .hero{
-    min-height:auto;
-    padding-top:60px;
-  }
-
-  .section{
-    padding:80px 0;
-  }
-
-  .hero p{
-    font-size:1rem;
-  }
-
 }
 </style>
 
@@ -224,22 +163,28 @@ body{
 <div>
 
 <div class="badge">
-⚡ IT Support • Linux • Cybersecurity
+⚡ Aspiring SOC Analyst • Blue Team • eJPT
 </div>
 
 <h1>
 Muhammad<br>
-Hibatullah Wafi
+Hibatullah
 </h1>
 
 <p>
-Hands-on learner building practical skills
-in Linux, IT support, and cybersecurity.
+Hands-on cybersecurity enthusiast building SIEM labs, performing vulnerability assessments, and documenting real-world security projects.
 </p>
 
 <div class="buttons">
-<a class="btn btn-primary" href="#projects">View Projects</a>
-<a class="btn btn-secondary" href="#contact">Contact Me</a>
+
+<a class="btn btn-primary" href="#projects">
+View Projects
+</a>
+
+<a class="btn btn-secondary" href="#certifications">
+Certifications
+</a>
+
 </div>
 
 </div>
@@ -253,23 +198,28 @@ About Me
 </h2>
 
 <p class="section-desc">
-I'm a technology enthusiast passionate about IT support,
-Linux systems, troubleshooting, and cybersecurity fundamentals.
-I enjoy building digital projects, learning independently,
-and experimenting with infrastructure, automation,
-and internet-based businesses.
+I'm an aspiring SOC Analyst transitioning into cybersecurity. I enjoy building home labs, investigating Windows events, and learning defensive security concepts.
+
+My projects focus on SIEM, log analysis, password security, and vulnerability assessment.
+
+Currently, I'm strengthening my foundation through hands-on labs and industry certifications.
+
 </p>
 
 <div class="skills">
 
+<div class="skill">Wazuh</div>
+<div class="skill">SIEM</div>
+<div class="skill">Log Analysis</div>
+<div class="skill">Windows Event Logs</div>
+<div class="skill">PowerShell Monitoring</div>
 <div class="skill">Linux</div>
-<div class="skill">IT Support</div>
+<div class="skill">Ubuntu</div>
+<div class="skill">Vulnerability Assessment</div>
+<div class="skill">OWASP Top 10</div>
+<div class="skill">Docker</div>
+<div class="skill">Git</div>
 <div class="skill">Networking</div>
-<div class="skill">Cybersecurity</div>
-<div class="skill">Cloudflare</div>
-<div class="skill">GitHub</div>
-<div class="skill">WordPress</div>
-<div class="skill">Troubleshooting</div>
 
 </div>
 
@@ -286,17 +236,13 @@ Featured Projects
 <div class="card">
 
 <div class="project-tag">
-DIGITAL BUSINESS
+SIEM LAB
 </div>
 
-<h3>
-Insider Top Up
-</h3>
+<h3>Wazuh Home Lab</h3>
 
 <p>
-A gaming top-up platform focused on automation,
-fast delivery, payment systems,
-and customer experience.
+Built a SIEM environment using Ubuntu and Windows endpoints to monitor and investigate security events.
 </p>
 
 </div>
@@ -304,17 +250,69 @@ and customer experience.
 <div class="card">
 
 <div class="project-tag">
-PERSONAL LAB
+THREAT DETECTION
 </div>
 
-<h3>
-Learning Environment
-</h3>
+<h3>Failed Login & Brute Force Detection</h3>
 
 <p>
-Self-hosted environment for Linux practice,
-Git workflows, networking,
-and cybersecurity experiments.
+Configured Wazuh to detect Event ID 4625 and brute-force login attempts.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="project-tag">
+DETECTION ENGINEERING
+</div>
+
+<h3>PowerShell Monitoring</h3>
+
+<p>
+Monitored PowerShell activities and analyzed script execution events.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="project-tag">
+PASSWORD SECURITY
+</div>
+
+<h3>Password Security Lab</h3>
+
+<p>
+Implemented password strength analysis, hashing, and salted hashing concepts.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="project-tag">
+VAPT
+</div>
+
+<h3>Pentest Report - Merdeka Bank</h3>
+
+<p>
+Performed vulnerability assessment and documented findings in a professional report.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="project-tag">
+WEB SECURITY
+</div>
+
+<h3>Pentest Report - Jersey Sekat</h3>
+
+<p>
+Conducted web application testing and documented vulnerabilities.
 </p>
 
 </div>
@@ -323,37 +321,41 @@ and cybersecurity experiments.
 
 </section>
 
-<section class="contact" id="contact">
+<section class="section" id="certifications">
 
 <h2 class="section-title">
-Let's Connect
+Certifications
 </h2>
 
-<p class="section-desc" style="margin:auto;">
-Feel free to reach out for collaboration,
-networking, or discussions about technology and projects.
-</p>
+<div class="cert">
+<h3>ISC2 Certified in Cybersecurity (CC)</h3>
+<span>Certified</span>
+</div>
 
-<div class="contact-links">
+<div class="cert">
+<h3>eJPT</h3>
+<span>Certified Junior Penetration Tester</span>
+</div>
 
-<a href="https://github.com/mhibx">
-GitHub
-</a>
+<div class="cert">
+<h3>CompTIA Security+</h3>
+<span>Expected July 2026</span>
+</div>
 
-<a href="https://t.me/mwafi95">
-Telegram
-</a>
+<div class="cert">
+<h3>Certificate of Excellence - Merdeka Siber</h3>
+</div>
 
-<a href="mailto:yourmail@example.com">
-Email
-</a>
-
+<div class="cert">
+<h3>Mastered Predicate - Codelamp Indonesia</h3>
 </div>
 
 </section>
 
 <div class="footer">
-© 2026 MHIBX — Built with GitHub Pages
+
+© 2026 MHIBX | Built with GitHub Pages
+
 </div>
 
 </div>
