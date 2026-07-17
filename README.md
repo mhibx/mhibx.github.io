@@ -1,163 +1,282 @@
 # 🛡️ Muhammad Hibatullah (MHIBX)
 
-**Aspiring SOC Analyst | Blue Team Enthusiast | eJPT | ISC2 CC**
+**SOC Analyst | Blue Team | CompTIA Security+ | eJPT | ISC2 Certified in Cybersecurity (CC)**
 
-Hands-on cybersecurity enthusiast building SIEM labs, performing vulnerability assessments, and documenting real-world security projects.
+Passionate cybersecurity professional with hands-on experience building SIEM home labs, performing security investigations, conducting vulnerability assessments, and documenting practical security projects.
 
-🌐 Website: https://mhibx.github.io
-📍 Bekasi, Indonesia
-📧 [mhibatullahwafi@gmail.com](mailto:mhibatullahwafi@gmail.com)
-🔗 LinkedIn: https://www.linkedin.com/in/mhwafi
-🧑‍💻 TryHackMe: https://tryhackme.com/p/mhibx
+---
+
+## 📊 Portfolio Overview
+
+- 🛡️ 10+ Cybersecurity Projects
+- 🔍 5+ Detection & Investigation Labs
+- 🏠 Self-hosted Home Lab Environment
+- 📄 Practical Security Documentation
+- 🏆 3 Industry Certifications
+- 📚 Continuous Learning & Research
+
+---
+
+## 🌐 Connect
+
+- 🌍 Website: https://mhibx.github.io
+- 💼 LinkedIn: https://www.linkedin.com/in/mhwafi
+- 💻 GitHub: https://github.com/mhibx
+- 🧑‍💻 TryHackMe: https://tryhackme.com/p/mhibx
+- 📧 Email: mhibatullahwafi@gmail.com
+- 📍 Bekasi, Indonesia
 
 ---
 
 # 👨‍💻 About Me
 
-I'm an aspiring SOC Analyst transitioning into cybersecurity after several years in analytical and operational roles.
+I'm an aspiring SOC Analyst with a strong interest in Security Operations, Blue Teaming, Detection Engineering, and Incident Response.
 
-I enjoy building home labs, investigating Windows events, and learning defensive security concepts. My projects focus on:
+Coming from a background in CRM administration, business operations, technical support, and data analysis, I have developed strong analytical thinking, troubleshooting, documentation, and problem-solving skills that naturally translate into cybersecurity.
 
-* SIEM & Log Analysis
-* Threat Detection
-* Vulnerability Assessment
-* Password Security
-* Web Application Security
-* Security Reporting
+I enjoy building security home labs, investigating Windows events, developing detection use cases, documenting findings, and continuously improving my technical skills through hands-on practice.
 
-Currently strengthening my foundation through hands-on labs and industry certifications.
+My long-term interests include:
+
+- 🛡️ Security Operations Center (SOC)
+- 📈 Detection Engineering
+- 🔍 Threat Hunting
+- 📋 Governance, Risk & Compliance (GRC)
+- ⚙️ DevSecOps
 
 ---
 
 # 🚀 Featured Projects
 
-## 🔹 Wazuh SIEM Home Lab
+## 🛡️ Wazuh SIEM Home Lab
 
-Built a SIEM environment using Ubuntu and Windows endpoints to monitor and investigate security events.
+Built a Security Information and Event Management (SIEM) environment using Ubuntu Server and Windows endpoints to simulate real-world security monitoring.
 
-### Included Projects
+### Projects
 
-* Wazuh Installation & Configuration
-* Failed Login Detection (Event ID 4625)
-* Brute Force Detection
-* PowerShell Monitoring
-* Event Investigation
+- Wazuh Installation & Configuration
+- Windows Agent Deployment
+- Failed Login Detection (Event ID 4625)
+- Brute Force Detection
+- PowerShell Monitoring
+- Windows Event Investigation
+- MITRE ATT&CK Mapping
+- Detection & Investigation Documentation
+
+**Skills**
+
+- SIEM
+- Log Analysis
+- Windows Event Logs
+- Threat Detection
+- Incident Investigation
+- MITRE ATT&CK
 
 ---
 
-## 🔹 Password Security Labs
+## 🔎 OtoSINT
 
-Implemented security concepts related to authentication and password storage.
+Automated OSINT reconnaissance toolkit developed to streamline the information gathering phase during security assessments.
 
-Projects:
+### Features
 
-* Weak Password Checker
-* Password Strength Checker
-* Password Hashing
-* Salted Password Hashing
+- Subdomain Enumeration
+- Asset Discovery
+- crt.sh Integration
+- WHOIS Lookup
+- DNS Enumeration
+- HTTP Probing
+- Technology Fingerprinting
+
+**Skills**
+
+- Bash
+- OSINT
+- Reconnaissance
+- DNS
+- Automation
 
 ---
 
-## 🔹 Vulnerability Assessment & Penetration Testing
+## 🔐 Password Security Labs
 
-Hands-on experience performing assessments and documenting findings.
+Collection of projects demonstrating authentication and password security concepts.
 
-Projects:
+### Projects
 
-* Pentest Report – Merdeka Bank
-* Pentest Report – Jersey Sekat
+- Weak Password Checker
+- Password Strength Checker
+- Password Hashing
+- Salted Password Hashing
+
+**Skills**
+
+- Password Security
+- Authentication
+- Cryptography
+- Secure Coding
+
+---
+
+## 🌐 Vulnerability Assessment & Web Security
+
+Hands-on web application security assessments following common penetration testing methodologies.
+
+### Projects
+
+- Merdeka Bank Pentest
+- Jersey Sekat Pentest
+- OWASP Testing
+- Burp Suite Labs
+
+**Skills**
+
+- Burp Suite
+- OWASP Top 10
+- Vulnerability Assessment
+- Web Security
+
+---
+
+# 📂 Repository Overview
+
+| Repository | Description | Skills |
+|------------|-------------|--------|
+| 🛡️ Wazuh Lab | SIEM deployment, detection, investigation & monitoring | Wazuh, SIEM, Windows Logs |
+| 🔎 OtoSINT | Automated reconnaissance toolkit | Bash, OSINT, DNS |
+| 🔐 Password Security | Authentication & password security projects | Cryptography, Authentication |
+| 🌐 VAPT Reports | Web application security assessments | Burp Suite, OWASP |
+| 💻 GitHub Portfolio | Personal cybersecurity portfolio website | HTML, CSS, GitHub Pages |
+
+---
+
+# 📚 Cybersecurity Learning Journey
+
+| Domain | Projects | Status |
+|---------|----------|:------:|
+| 🔐 Password Security | Password Strength Checker, Weak Password Checker, Password Hashing | ✅ |
+| 🌐 Web Security | VAPT Reports, Burp Suite Labs | ✅ |
+| 🔎 OSINT | OtoSINT | ✅ |
+| 🛡️ SIEM & Log Analysis | Wazuh Home Lab | ✅ |
+| 🚨 Security Monitoring | Failed Login Detection, PowerShell Monitoring | ✅ |
+| 📄 Security Documentation | Detection & Investigation Write-ups | ✅ |
+| 🎯 MITRE ATT&CK | Mapping Wazuh detections | 🔄 |
+| 🔍 Threat Hunting | IOC-based investigations | 📅 |
+| ☁️ Microsoft Sentinel | SIEM Lab | 📅 |
+| 📋 GRC | Risk Assessment & Security Policies | 📅 |
+| ⚙️ DevSecOps | Secure CI/CD Pipeline | 📅 |
 
 ---
 
 # 🧰 Technical Skills
 
-## Security
+## 🛡️ Security Operations
 
-* SIEM
-* Log Analysis
-* Threat Detection
-* Vulnerability Assessment
-* Web Application Security
-* Password Security
+- Security Monitoring
+- SIEM
+- Log Analysis
+- Threat Detection
+- Incident Investigation
+- Event Correlation
+- Windows Event Analysis
+- Vulnerability Assessment
+- MITRE ATT&CK
+- OWASP Top 10
 
-## Tools
+---
 
-* Wazuh
-* Burp Suite
-* Nmap
-* Wireshark
-* Metasploit
-* Gobuster
-* Nikto
+## 🌐 Networking
 
-## Operating Systems
+- TCP/IP
+- DNS
+- HTTP / HTTPS
+- SSH
+- Network Troubleshooting
+- Basic Firewall Concepts
 
-* Ubuntu
-* Kali Linux
-* Windows
+---
 
-## Technologies
+## 💻 Operating Systems
 
-* Docker
-* Git
-* GitHub
-* VirtualBox
+- Windows
+- Ubuntu Linux
+- Kali Linux
 
-## Frameworks
+---
 
-* OWASP Top 10
-* MITRE ATT&CK
-* PTES
-* Cyber Kill Chain
+## 🛠️ Security Tools
+
+- Wazuh
+- Burp Suite
+- Wireshark
+- Nmap
+- Metasploit
+- Gobuster
+- Nikto
+
+---
+
+## ⚙️ Technologies
+
+- Docker
+- Git
+- GitHub
+- VirtualBox
 
 ---
 
 # 📜 Certifications
 
-### ✅ ISC2 Certified in Cybersecurity (CC)
-
-### ✅ eJPT (eLearnSecurity Junior Penetration Tester)
-
-### 🟡 CompTIA Security+ (Expected July 2026)
-
-### 🏆 Certificate of Excellence – Merdeka Siber
-
-### 🏆 Mastered Predicate – Codelamp Indonesia
+- ✅ CompTIA Security+
+- ✅ ISC2 Certified in Cybersecurity (CC)
+- ✅ eJPT (INE Security)
+- 🏆 Certificate of Excellence – Merdeka Siber Academy
+- 🏆 Mastered Predicate – Codelamp Indonesia
 
 ---
 
 # 📚 Currently Learning
 
-* Detection Engineering
-* Windows Event Analysis
-* MITRE ATT&CK Mapping
-* Python for Automation
-* SOC Operations
-* CompTIA Security+
+- Detection Engineering
+- Threat Hunting
+- Incident Response
+- Windows Event Analysis
+- MITRE ATT&CK
+- Sigma Rules
+- Microsoft Sentinel
+- GRC Fundamentals
+- DevSecOps Fundamentals
+- Python for Security Automation
 
 ---
 
 # 🎯 Career Objective
 
-Actively pursuing opportunities as:
+Currently seeking opportunities as:
 
-* SOC Analyst (Tier 1)
-* Security Analyst
-* Vulnerability Analyst
-* IT Support
-* Junior Penetration Tester
+- SOC Analyst (Tier 1)
+- Security Analyst
+- IT Support
+- Cybersecurity Analyst
+
+Long-term career interests:
+
+- Detection Engineer
+- Threat Hunter
+- GRC Consultant
+- DevSecOps Engineer
 
 ---
 
-# 📫 Connect With Me
+# 🤝 Let's Connect
 
-🌐 Website: https://mhibx.github.io
+If you're interested in cybersecurity, Blue Team operations, or security engineering, feel free to connect.
 
-LinkedIn:
-https://www.linkedin.com/in/mhwafi
+- 🌍 Website: https://mhibx.github.io
+- 💼 LinkedIn: https://www.linkedin.com/in/mhwafi
+- 💻 GitHub: https://github.com/mhibx
+- 📧 Email: mhibatullahwafi@gmail.com
 
-TryHackMe:
-https://tryhackme.com/p/mhibx
+---
 
-GitHub:
-https://github.com/mhibx
+⭐ *Always learning. Always building. Always improving.*
