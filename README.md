@@ -230,7 +230,7 @@ Hands-on web application security assessments following common penetration testi
 - ✅ [CompTIA Security+](https://cp.certmetrics.com/comptia/en/public/verify/credential/862cecdd1b9149908ee7c347078e8efc)
 - ✅ [ISC2 Certified in Cybersecurity (CC)](https://www.credly.com/badges/2312c844-0560-4445-97b7-2c578c2f23c9)
 - ✅ [eJPT (INE Security)](https://certs.ine.com/f55b73ac-f98d-44ed-bc2e-e8116fc17d63#acc.F3dT9czx)
-- 🏆 [Certificate of Excellence – Merdeka Siber Academy](certificates/images/MS_BOCSE_19_COE_016.pdf)
+- 🏆 [Certificate of Excellence – Merdeka Siber Academy](certificates/files/MS_BOCSE_19_COE_016.pdf)
 - 🏆 [Mastered Predicate – Codelamp Indonesia](https://e-sertifikat.codelamp.co.id/certificate/verify/019b2016-5a36-716a-a3ad-a63daae7d8f6/019b2b7a-e5c3-7342-9759-1645ff7b9e3c)
 
 ---
